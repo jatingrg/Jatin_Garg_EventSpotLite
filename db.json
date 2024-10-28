@@ -1,0 +1,180 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Community Cleanup",
+      "date": "2024-11-05",
+      "location": "City Park",
+      "description": "Join us for a day of cleaning up the park!",
+      "host": "Jatin Garg"
+    },
+    {
+      "id": 2,
+      "name": "Book Fair",
+      "date": "2024-12-01",
+      "location": "Main Library",
+      "description": "Explore local authors and book sales.",
+      "host": "Jatin Garg"
+    },
+    {
+      "id": 3,
+      "name": "Food Truck Festival",
+      "date": "2024-12-15",
+      "location": "Downtown Square",
+      "description": "Taste food from the best local food trucks.",
+      "host": "Jatin Garg"
+    },
+    {
+      "id": 4,
+      "name": "Art in the Park",
+      "date": "2025-01-10",
+      "location": "Central Park",
+      "description": "A day of art and creativity in the park.",
+      "host": "Jatin Garg"
+    },
+    {
+      "id": 5,
+      "name": "Charity Run",
+      "date": "2025-02-20",
+      "location": "City Stadium",
+      "description": "Participate in a run to raise funds for local charities.",
+      "host": "Jatin Garg"
+    },
+    {
+      "id": 6,
+      "name": "Music Festival",
+      "date": "2025-03-15",
+      "location": "Riverfront Park",
+      "description": "Enjoy live music from local bands.",
+      "host": "Jatin Garg"
+    },
+    {
+      "id": 7,
+      "name": "Farmers Market",
+      "date": "2025-04-01",
+      "location": "Town Square",
+      "description": "Shop for fresh produce and local goods.",
+      "host": "Jatin Garg"
+    },
+    {
+      "id": 8,
+      "name": "Tech Expo",
+      "date": "2025-05-10",
+      "location": "Convention Center",
+      "description": "Discover the latest in technology and innovation.",
+      "host": "Jatin Garg"
+    },
+    {
+      "id": 9,
+      "name": "Film Festival",
+      "date": "2025-06-05",
+      "location": "City Theater",
+      "description": "Watch independent films and meet the filmmakers.",
+      "host": "Jatin Garg"
+    },
+    {
+      "id": 10,
+      "name": "Outdoor Yoga Retreat",
+      "date": "2025-07-20",
+      "location": "Nature Reserve",
+      "description": "Relax and rejuvenate in nature with yoga.",
+      "host": "Jatin Garg"
+    },
+    {
+      "id": 11,
+      "name": "Science Fair",
+      "date": "2025-08-15",
+      "location": "School Gymnasium",
+      "description": "Explore innovative projects from local students.",
+      "host": "Jatin Garg"
+    },
+    {
+      "id": 12,
+      "name": "Cultural Festival",
+      "date": "2025-09-25",
+      "location": "Civic Center",
+      "description": "Celebrate diversity with food, music, and dance.",
+      "host": "Jatin Garg"
+    },
+    {
+      "id": 13,
+      "name": "Pet Adoption Day",
+      "date": "2025-10-10",
+      "location": "Animal Shelter",
+      "description": "Find a new furry friend to adopt.",
+      "host": "Jatin Garg"
+    },
+    {
+      "id": 14,
+      "name": "Health and Wellness Fair",
+      "date": "2025-11-01",
+      "location": "Community Center",
+      "description": "Learn about healthy living and wellness options.",
+      "host": "Jatin Garg"
+    },
+    {
+      "id": 15,
+      "name": "Winter Wonderland",
+      "date": "2025-12-10",
+      "location": "City Hall",
+      "description": "Enjoy holiday festivities and activities.",
+      "host": "Jatin Garg"
+    },
+    {
+      "id": 16,
+      "name": "Hiking Adventure",
+      "date": "2026-01-15",
+      "location": "Mountain Trails",
+      "description": "Join us for a scenic hike and explore nature.",
+      "host": "Jatin Garg"
+    },
+    {
+      "id": 17,
+      "name": "Photography Workshop",
+      "date": "2026-02-20",
+      "location": "Art Studio",
+      "description": "Learn photography skills with professional guidance.",
+      "host": "Jatin Garg"
+    },
+    {
+      "id": 18,
+      "name": "Cooking Class",
+      "date": "2026-03-25",
+      "location": "Culinary School",
+      "description": "Master new recipes and cooking techniques.",
+      "host": "Jatin Garg"
+    },
+    {
+      "id": 19,
+      "name": "Local History Tour",
+      "date": "2026-04-30",
+      "location": "Historic District",
+      "description": "Explore the rich history of our town.",
+      "host": "Jatin Garg"
+    },
+    {
+      "id": 20,
+      "name": "Volunteer Day",
+      "date": "2026-05-15",
+      "location": "Community Center",
+      "description": "Help improve our community through volunteer work.",
+      "host": "Jatin Garg"
+    },
+    {
+      "id": "a28a",
+      "name": "Diwali",
+      "description": "festival of joyful",
+      "host": "jatin garg",
+      "location": "Chandigarg",
+      "date": "2024-10-29"
+    },
+    {
+      "id": "35bb",
+      "name": "sports",
+      "description": "Badmintion Tournament",
+      "host": "jack",
+      "location": "Indore",
+      "date": "2024-10-29"
+    }
+  ]
+}
