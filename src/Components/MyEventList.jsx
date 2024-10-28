@@ -4,7 +4,7 @@ import { useAuth } from "./Context/FakeAuthContext";
 import Modal from "./Modal"; 
 
 const MyEventList = () => {
-  const { events } = useEvents();
+  const { events, deleteEvent } = useEvents();
   const { user } = useAuth();
   
   const yourName = user ? user.email.replace('@example.com', '') : null;
@@ -28,6 +28,12 @@ const MyEventList = () => {
     }, 300); 
   };
 
+  const handleDelete = (id) => {
+    if (window.confirm("Are you sure you want to delete this event?")) {
+      deleteEvent(id);
+    }
+  };
+
   return (
     <div className="mt-4">
       <h2 className="text-2xl font-semibold mb-4">Your Events</h2>
@@ -47,6 +53,12 @@ const MyEventList = () => {
                   className="rounded-md bg-slate-800 py-2 px-4 mt-6 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg"
                 >
                   Read more
+                </button>
+                <button 
+                  onClick={() => handleDelete(event.id)} 
+                  className="rounded-md bg-red-600 py-2 px-4 mt-2 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg"
+                >
+                  Delete
                 </button>
               </div>
             </div>
