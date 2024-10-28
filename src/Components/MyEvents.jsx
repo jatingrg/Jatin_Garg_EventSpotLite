@@ -6,7 +6,7 @@ const MyEvents = () => {
   const { addEvent } = useEvents();
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");
-  const [host, setHost] = useState("");
+  const [host, setHost] = useState("jack");
   const [location, setLocation] = useState("");
   const [date, setDate] = useState("");
 
