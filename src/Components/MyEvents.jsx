@@ -6,7 +6,7 @@ const MyEvents = () => {
   const { addEvent } = useEvents();
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");
-  const [host, setHost] = useState("jack"); 
+  const [host, setHost] = useState(""); 
   const [location, setLocation] = useState("");
   const [date, setDate] = useState("");
 
@@ -22,7 +22,7 @@ const MyEvents = () => {
 
     setName("");
     setDescription("");
-    setHost("jack"); 
+    setHost(""); 
     setLocation("");
     setDate("");
   };
@@ -47,7 +47,7 @@ const MyEvents = () => {
         />
         <input
           type="text"
-          placeholder="Host name always be jack because I have made temporarily login."
+          placeholder="Your Name (Host will always be 'Jack')"
           value={host}
           onChange={(e) => setHost(e.target.value)}
           required
