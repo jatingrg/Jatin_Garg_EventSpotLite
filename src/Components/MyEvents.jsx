@@ -42,7 +42,7 @@ const MyEvents = () => {
       />
       <input
         type="text"
-        placeholder="Host"
+        placeholder="Host name alwase be jack because i have made temporiarly login ."
         value={host}
         onChange={(e) => setHost(e.target.value)}
         required
